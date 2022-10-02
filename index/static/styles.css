@@ -1,0 +1,57 @@
+body{
+    background-color: #202020;
+    color: whitesmoke
+}
+
+.navbar{
+    background-color: #404040;
+    color: white;
+    padding: 5px    ;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+}
+
+.card{
+    background-color: whitesmoke;
+    margin: 3px;
+    padding: 5px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black
+}
+
+.card a:hover{
+    color: aqua;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
